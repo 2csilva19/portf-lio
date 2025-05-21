@@ -1,0 +1,150 @@
+    <!-- Gabriel Silva Ferreira 3.C -->
+
+<!DOCTYPE html>  
+<html lang="pt-br">  
+  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">  
+    <link rel="stylesheet" href="style.css">  
+    <title>Meu portfólio</title>  
+</head>  
+  
+<body>  
+    <header class="container text-center">  
+        <img src="img/perfil.jpeg" alt="avatar do Gabriel" class="rounded-circle" width="150" height="150">  
+        <p class="lead">Eu sou Gabriel</p>  
+        <h1>Estudante de Programação</h1>  
+        <p>Sou aluno que esta cursando o ensino médio em período integral.  
+            Nas aulas de programação aprendemos a criar sites e jogos utilizando HTML, CSS e JavaScript.  
+        </p>  
+        <p>Minhas Habilidades</p>  
+        <div>  
+            <p class="badge bg-secondary">HTML</p>  
+            <p class="badge bg-secondary">CSS</p>  
+            <p class="badge bg-secondary">JavaScript</p>  
+            <p class="badge bg-secondary">Scratch</p>  
+        </div>  
+    </header>  
+  
+    <main class="container mt-5">  
+        <h2>Meus Projetos</h2>  
+        <div class="row">    
+            <div class="col-md-4">  
+                <div class="card">  
+                    <img src="img/online-quiz.png" class="card-img-top" alt="imagem do projeto de Quiz Interativo">  
+                    <div class="card-body">  
+                        <h5 class="card-title">Quiz Interativo</h5>  
+                        <p class="card-text">Jogo de perguntas e respostas sobre tecnologia desenvolvido com JavaScript puro.</p>  
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o Projeto</button>  
+                    </div>  
+                </div>  
+            </div>  
+            <div class="col-md-4">  
+                <div class="card">  
+                    <img src="img/filmes.png" class="card-img-top" alt="imagem do projeto de filmes">  
+                    <div class="card-body">  
+                        <h5 class="card-title">Aluraflix</h5>  
+                        <p class="card-text">Catálogo de filmes desenvolvido com HTML, CSS e JavaScript.</p>  
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o Projeto</button>  
+                    </div>  
+                </div>  
+            </div>  
+            <div class="col-md-4">  
+                <div class="card">  
+                    <img src="img/pescar peixe.jpeg" class="card-img-top" alt="Imagem do projeto do sistema solar">  
+                    <div class="card-body">  
+                        <h5 class="card-title"></h5>  
+                        <p class="card-text">jogo de caça a o peixe desenvolvido dentro do scratch</p>  
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>  
+                    </div>  
+                </div>  
+            </div>  
+        </div>  
+    </main>    
+    <div class="modal" id="modal1" tabindex="-1">  
+        <div class="modal-dialog">  
+            <div class="modal-content">  
+                <div class="modal-header">  
+                    <h5 class="modal-title">Quiz Interativo</h5>  
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>  
+                </div>  
+                <div class="modal-body">  
+                    <p>Projeto desenvolvido com perguntas sobre tecnologia utilizando JavaScript puro.</p>  
+                    <p>Tecnologias utilizadas:</p>  
+                    <ul>  
+                        <li>HTML para estrutura</li>  
+                        <li>CSS para estilo</li>  
+                        <li>JavaScript para lógica do jogo</li>  
+                    </ul>  
+                    <img src="img/online-quiz.png" alt="Projeto Quiz Interativo" class="img-fluid w-100">  
+                </div>  
+                <div class="modal-footer">  
+                    <a href="https://2csilva19.github.io/Flashcard/" target="_blank">Ver projeto ao vivo</a>  
+                    <a href="https://github.com/2csilva19/Flashcard" target="_blank">Ver código do projeto</a>  
+                </div>  
+            </div>  
+        </div>  
+    </div>  
+    <div class="modal" id="modal2" tabindex="-1">  
+        <div class="modal-dialog">  
+            <div class="modal-content">  
+                <div class="modal-header">  
+                    <h5 class="modal-title">Aluraflix</h5>  
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>  
+                </div>  
+                <div class="modal-body">  
+                    <p>Projeto desenvolvido durante o curso da Alura com objetivo de criar um catálogo de filmes e series personalizável.</p>  
+                    <p>Tecnologias utilizadas:</p>  
+                    <ul>  
+                        <li>HTML para estruturação do conteúdo</li>  
+                        <li>CSS para estilização e layout responsivo</li>
+                    </ul>  
+                    <img src="img/filmes.png" alt="Projeto Aluraflix" class="img-fluid w-100">  
+                </div>  
+                <div class="modal-footer">  
+                    <a href="https://2csilva19.github.io/aluraflix/" target="_blank">Ver projeto ao vivo</a>  
+                    <a href="https://github.com/2csilva19/aluraflix" target="_blank">Ver código do projeto</a>  
+                </div>  
+            </div>  
+        </div>  
+    </div> 
+    <div class="modal" id="modal3" tabindex="-1">  
+        <div class="modal-dialog">  
+            <div class="modal-content">  
+                <div class="modal-header">  
+                    <h5 class="modal-title">Caça ao Peixe</h5>  
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>  
+                </div>  
+                <div class="modal-body">  
+                    <p>Projeto desenvolvido durante o curso do alura dentro do scratch</p>  
+                    <p>Tecnologias utilizadas:</p>  
+                    <ul>  
+                        <li>scratch para estruturação do conteúdo</li>  
+                        
+                    </ul>  
+                    <img src="img/pescar peixe.jpeg" alt="Projeto Aluraflix" class="img-fluid w-100">  
+                </div>  
+                <div class="modal-footer">  
+                    <a href="https://scratch.mit.edu/projects/1178702390/fullscreen/" target="_blank">Ver projeto ao vivo</a>  
+                    <a href="https://scratch.mit.edu/projects/1178702390/editor/" target="_blank">Ver código do projeto</a>  
+                </div>  
+            </div>  
+        </div>  
+    </div>  
+  
+
+    <footer class="container py-5">  
+        <h2>Entre em contato</h2>  
+        <div>  
+            <i class="bi bi-github"></i>  
+            <a href="https://github.com/2csilva19">GitHub</a>  
+        </div>  
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Gabriel</p>  
+    </footer>  
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>  
+</body>  
+</html>
